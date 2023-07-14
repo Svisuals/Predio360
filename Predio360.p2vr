@@ -2,7 +2,7 @@
 <!-- Pano2VR project file  -->
 <pano2vrconfig rev="18080" version="6.1.13">
   <tour>
-    <start>node7</start>
+    <start>node1</start>
     <panorama>
       <input>
         <patch/>
