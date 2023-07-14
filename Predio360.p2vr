@@ -1024,7 +1024,7 @@
         <videorect/>
         <type>audio</type>
         <id>Element01</id>
-        <filename>../Media/Som/Audio2Começo.mp3</filename>
+        <filename>../Media/Som/AudioComeçoLançamento.mp3</filename>
         <mode>2</mode>
         <nodechangekeep>0</nodechangekeep>
         <locked>0</locked>
