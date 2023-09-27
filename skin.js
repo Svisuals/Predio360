@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: Predio360.ggsk
-// Generated 2023-09-27T12:05:36
+// Generated 2023-09-27T12:27:32
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);
@@ -6095,6 +6095,10 @@ gtag('config', ua_id);
 			}
 				player.stopSound("Audio1");
 				player.stopSound("Audio2");
+			gtag('event', 'Mouse Click', {
+  'event_category': player.getVariableValue('UA_category'),
+  'event_label': player.userdata.title
+});
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}
 		me._ht_video_file.ondblclick=function (e) {
