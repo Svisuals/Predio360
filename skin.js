@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: Predio360.ggsk
-// Generated 2023-09-27T10:53:06
+// Generated 2023-09-27T12:05:36
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);
@@ -622,10 +622,10 @@ function pano2vrSkin(player,base) {
 					this.style.top=((this.ggDy * ph)/100.0 + ph/2 - h/2) + 'px';
 			}
 		}
-		el=me._apoiofestas2=document.createElement('div');
-		els=me._apoiofestas2__img=document.createElement('img');
-		els.className='ggskin ggskin_apoiofestas2';
-		hs=basePath + 'images/apoiofestas2.png';
+		el=me._coworking0=document.createElement('div');
+		els=me._coworking0__img=document.createElement('img');
+		els.className='ggskin ggskin_coworking0';
+		hs=basePath + 'images/coworking0.png';
 		els.setAttribute('src',hs);
 		els.ggNormalSrc=hs;
 		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
@@ -634,7 +634,7 @@ function pano2vrSkin(player,base) {
 		player.checkLoaded.push(els);
 		el.appendChild(els);
 		el.ggSubElement = els;
-		el.ggId="ApoioFestas";
+		el.ggId="Coworking";
 		el.ggDx=0;
 		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
@@ -651,7 +651,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._apoiofestas2.ggIsActive=function() {
+		me._coworking0.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -663,7 +663,13 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._apoiofestas2.ggUpdatePosition=function (useTransition) {
+		me._coworking0.onclick=function (e) {
+			gtag('event', 'Mouse Click', {
+  'event_category': player.getVariableValue('UA_category'),
+  'event_label': player.userdata.title
+});
+		}
+		me._coworking0.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
 				useTransition = false;
 			}
@@ -679,7 +685,7 @@ function pano2vrSkin(player,base) {
 					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
 			}
 		}
-		me._coworking.appendChild(me._apoiofestas2);
+		me._coworking.appendChild(me._coworking0);
 		el=me._pre3=document.createElement('div');
 		el.ggId="Pre";
 		el.ggDx=0;
@@ -995,6 +1001,10 @@ function pano2vrSkin(player,base) {
 			player.setMediaVisibility("Filme2","0",0);
 			player.setVariableValue('Imagem1', true);
 			player.setTransition({type:"crossdissolve", before:0, after:0});
+			gtag('event', 'Mouse Click', {
+  'event_category': player.getVariableValue('UA_category'),
+  'event_label': player.userdata.title
+});
 		}
 		me._churrasqueira.onmouseover=function (e) {
 			me.elementMouseOver['churrasqueira']=true;
@@ -1029,10 +1039,10 @@ function pano2vrSkin(player,base) {
 					this.style.top=((this.ggDy * ph)/100.0 + ph/2 - h/2) + 'px';
 			}
 		}
-		el=me._apoiofestas1=document.createElement('div');
-		els=me._apoiofestas1__img=document.createElement('img');
-		els.className='ggskin ggskin_apoiofestas1';
-		hs=basePath + 'images/apoiofestas1.png';
+		el=me._apoiofestas0=document.createElement('div');
+		els=me._apoiofestas0__img=document.createElement('img');
+		els.className='ggskin ggskin_apoiofestas0';
+		hs=basePath + 'images/apoiofestas0.png';
 		els.setAttribute('src',hs);
 		els.ggNormalSrc=hs;
 		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
@@ -1058,7 +1068,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._apoiofestas1.ggIsActive=function() {
+		me._apoiofestas0.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -1070,7 +1080,7 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._apoiofestas1.ggUpdatePosition=function (useTransition) {
+		me._apoiofestas0.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
 				useTransition = false;
 			}
@@ -1086,7 +1096,7 @@ function pano2vrSkin(player,base) {
 					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
 			}
 		}
-		me._churrasqueira.appendChild(me._apoiofestas1);
+		me._churrasqueira.appendChild(me._apoiofestas0);
 		el=me._pre2=document.createElement('div');
 		el.ggId="Pre";
 		el.ggDx=0;
@@ -1583,10 +1593,10 @@ function pano2vrSkin(player,base) {
 			this.ggTextDiv.style.left=((98-this.ggTextDiv.offsetWidth)/2) + 'px';
 		}
 		me._festas.appendChild(me._festas_texto);
-		el=me._apoiofestas0=document.createElement('div');
-		els=me._apoiofestas0__img=document.createElement('img');
-		els.className='ggskin ggskin_apoiofestas0';
-		hs=basePath + 'images/apoiofestas0.png';
+		el=me._festas0=document.createElement('div');
+		els=me._festas0__img=document.createElement('img');
+		els.className='ggskin ggskin_festas0';
+		hs=basePath + 'images/festas0.png';
 		els.setAttribute('src',hs);
 		els.ggNormalSrc=hs;
 		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
@@ -1595,7 +1605,7 @@ function pano2vrSkin(player,base) {
 		player.checkLoaded.push(els);
 		el.appendChild(els);
 		el.ggSubElement = els;
-		el.ggId="ApoioFestas";
+		el.ggId="Festas";
 		el.ggDx=0;
 		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
@@ -1612,7 +1622,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._apoiofestas0.ggIsActive=function() {
+		me._festas0.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -1624,7 +1634,13 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._apoiofestas0.ggUpdatePosition=function (useTransition) {
+		me._festas0.onclick=function (e) {
+			gtag('event', 'Mouse Click', {
+  'event_category': player.getVariableValue('UA_category'),
+  'event_label': player.userdata.title
+});
+		}
+		me._festas0.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
 				useTransition = false;
 			}
@@ -1640,7 +1656,7 @@ function pano2vrSkin(player,base) {
 					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
 			}
 		}
-		me._festas.appendChild(me._apoiofestas0);
+		me._festas.appendChild(me._festas0);
 		me._inicio0.appendChild(me._festas);
 		el=me._apoiofestas=document.createElement('div');
 		el.ggId="ApoioFestas";
@@ -1809,6 +1825,10 @@ function pano2vrSkin(player,base) {
 			player.setMediaVisibility("Filme2","0",0);
 			player.setVariableValue('Imagem1', true);
 			player.setTransition({type:"crossdissolve", before:0, after:0});
+			gtag('event', 'Mouse Click', {
+  'event_category': player.getVariableValue('UA_category'),
+  'event_label': player.userdata.title
+});
 		}
 		me._apoiofestas.onmouseover=function (e) {
 			me.elementMouseOver['apoiofestas']=true;
@@ -5564,7 +5584,7 @@ function pano2vrSkin(player,base) {
 		el.ggType='text';
 		hs ='';
 		hs+='height : 21px;';
-		hs+='left : 0px;';
+		hs+='left : 1px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : hidden;';

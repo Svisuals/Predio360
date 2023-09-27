@@ -146,7 +146,7 @@
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" pan="360" tilt="90" fov="120" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata title="" info="" longitude="" comment="" latitude="" customnodeid="" tags="Imagens Vendas" heading="0" datetime="" nodeid="node5" author="" description="" copyright="" source=""/>
+    <userdata title="Apoio Festas" info="" longitude="" comment="" latitude="" customnodeid="" tags="Imagens Vendas" heading="0" datetime="" nodeid="node5" author="" description="" copyright="" source=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label bordercolor="0x000000" borderradius="1" height="20" backgroundcolor="0xffffff" borderalpha="1" border="1" enabled="1" width="180" backgroundalpha="1" textalpha="1" wordwrap="1" textcolor="0x000000" background="1"/>
       <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098"/>
@@ -178,7 +178,7 @@
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" pan="360" tilt="90" fov="120" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata title="" info="" longitude="" comment="" latitude="" customnodeid="" tags="Imagens Vendas" heading="0" datetime="" nodeid="node6" author="" description="" copyright="" source=""/>
+    <userdata title="Coworking" info="" longitude="" comment="" latitude="" customnodeid="" tags="Imagens Vendas" heading="0" datetime="" nodeid="node6" author="" description="" copyright="" source=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label bordercolor="0x000000" borderradius="1" height="20" backgroundcolor="0xffffff" borderalpha="1" border="1" enabled="1" width="180" backgroundalpha="1" textalpha="1" wordwrap="1" textcolor="0x000000" background="1"/>
       <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098"/>
@@ -212,7 +212,7 @@
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" pan="360" tilt="90" fov="120" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata title="" info="" longitude="" comment="" latitude="" customnodeid="" tags="Imagens Vendas" heading="0" datetime="" nodeid="node7" author="" description="" copyright="" source=""/>
+    <userdata title="Festas" info="" longitude="" comment="" latitude="" customnodeid="" tags="Imagens Vendas" heading="0" datetime="" nodeid="node7" author="" description="" copyright="" source=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label bordercolor="0x000000" borderradius="1" height="20" backgroundcolor="0xffffff" borderalpha="1" border="1" enabled="1" width="180" backgroundalpha="1" textalpha="1" wordwrap="1" textcolor="0x000000" background="1"/>
       <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098"/>
@@ -244,7 +244,7 @@
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" pan="360" tilt="90" fov="120" fovfisheye="360" scaletofit="1"/>
     </view>
-    <userdata title="" info="" longitude="" comment="" latitude="" customnodeid="" tags="Imagens Vendas" heading="0" datetime="" nodeid="node8" author="" description="" copyright="" source=""/>
+    <userdata title="Churrasqueira" info="" longitude="" comment="" latitude="" customnodeid="" tags="Imagens Vendas" heading="0" datetime="" nodeid="node8" author="" description="" copyright="" source=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label bordercolor="0x000000" borderradius="1" height="20" backgroundcolor="0xffffff" borderalpha="1" border="1" enabled="1" width="180" backgroundalpha="1" textalpha="1" wordwrap="1" textcolor="0x000000" background="1"/>
       <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundalpha="0.25098"/>
